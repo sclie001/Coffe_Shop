@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_flavor"
+        style="@style/HeaderTextStyle"
+        android:text="@string/flavors_title"
+        />
+
+    <RadioGroup
+        android:id="@+id/radio_flavors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/flavor_caramel_syrup"
+            style="@style/RadioButtonStyle"
+            android:text="@string/caramel_syrup_text" />
+        <RadioButton
+            android:id="@+id/flavor_chocolate_syrup"
+            style="@style/RadioButtonStyle"
+            android:text="@string/chocolate_syrup_text" />
+        <RadioButton
+            android:id="@+id/flavor_mocha_syrup"
+            style="@style/RadioButtonStyle"
+            android:text="@string/mocha_syrup_text"/>
+        <RadioButton
+            android:id="@+id/flavor_hazelnut_syrup"
+            style="@style/RadioButtonStyle"
+            android:text="@string/hazelnut_syrup_text"/>
+        <RadioButton
+            android:id="@+id/flavor_no_syrup"
+            style="@style/RadioButtonStyle"
+            android:text="@string/no_flavor_text"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/title_toppings"
+        style="@style/HeaderTextStyle"
+        android:text="@string/toppings_title"/>
+    <RadioGroup
+        android:id="@+id/radio_toppings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/topping_choc_drizzle"
+            style="@style/RadioButtonStyle"
+            android:text="@string/chocolate_drizzle_text"/>
+        <RadioButton
+            android:id="@+id/topping_whipped_cream"
+            style="@style/RadioButtonStyle"
+            android:text="@string/whipped_cream_text"/>
+        <RadioButton
+            android:id="@+id/topping_caramel_drizzle"
+            style="@style/RadioButtonStyle"
+            android:text="@string/caramel_drizzle_text"/>
+        <RadioButton
+            android:id="@+id/topping_mocha_drizzle"
+            style="@style/RadioButtonStyle"
+            android:text="@string/mocha_drizzle_text"/>
+        <RadioButton
+            android:id="@+id/topping_no_topping"
+            style="@style/RadioButtonStyle"
+            android:text="@string/no_topping_text"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/order_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Order"/>
+
+
+
+
+
+
+</LinearLayout>

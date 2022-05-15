@@ -1,0 +1,44 @@
+<resources>
+    <!--Coffees-->
+    <string name="app_name">coffee</string>
+    <string name="hot_coffee_btn">Hot Coffee</string>
+    <string name="ice_coffee_btn">Ice Coffee</string>
+    <string name="brewed_coffee_btn">Brewed Coffee</string>
+    <string name="americano_btn">Americano</string>
+    <string name="latte_btn">Latte</string>
+    <string name="expresso_btn">Expresso</string>
+
+    <!--size-->
+    <string name="size_title">Size</string>
+    <string name="size_small_text">small</string>
+    <string name="size_medium_text">medium</string>
+    <string name="size_large_text">large</string>
+    <!--Flavors-->
+    <string name="flavors_title">Flavors</string>
+    <string name="caramel_syrup_text">caramel syrup</string>
+    <string name="chocolate_syrup_text">chocolate syrup</string>
+    <string name="mocha_syrup_text">mocha syrup</string>
+    <string name="hazelnut_syrup_text">hazelnut syrup</string>
+    <string name="no_flavor_text">None</string>
+
+    <!--Toppings-->
+    <string name="toppings_title">Toppings</string>
+    <string name="chocolate_drizzle_text">chocolate drizzle</string>
+    <string name="whipped_cream_text">whipped cream</string>
+    <string name="caramel_drizzle_text">caramel drizzle</string>
+    <string name="mocha_drizzle_text">mocha drizzle</string>
+    <string name="no_topping_text">None</string>
+
+    <!--Sweetener-->
+    <string name="sweetener_title">Sweetener</string>
+    <string name="sweetener_sugar_text">sugar</string>
+    <string name="sweetener_honey_text">honey</string>
+    <string name="sweetener_sugar_in_raw_text">sugar in raw</string>
+    <string name="sweetener_splenda_text">splenda</string>
+
+    <!--Creamer-->
+    <string name="creamer_title">Cream</string>
+    <string name="creamer_milk_text">milk</string>
+    <string name="creamer_soy_text">soy milk</string>
+    <string name="creamer_coconut_text">coconut milk</string>
+</resources>
