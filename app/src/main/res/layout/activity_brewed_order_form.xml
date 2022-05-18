@@ -1,126 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/title_size"
-        style="@style/HeaderTextStyle"
-        android:text="@string/size_title"/>
-
-    <RadioGroup
-        android:id="@+id/size_rad_group"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-        <RadioButton
-            android:id="@+id/size_small"
-            style="@style/RadioButtonStyle"
-            android:text="@string/size_small_text"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/size_medium"
-            style="@style/RadioButtonStyle"
-            android:text="@string/size_medium_text"/>
+            <TextView
+                android:id="@+id/title_size"
+                style="@style/HeaderTextStyle"
+                android:text="@string/size_title" />
 
-        <RadioButton
-            android:id="@+id/size_large"
-            style="@style/RadioButtonStyle"
-            android:text="@string/size_large_text"/>
+            <RadioGroup
+                android:id="@+id/size_rad_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/size_small"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/size_small_text" />
 
-    <TextView
-        android:id="@+id/title_flavor"
-        style="@style/HeaderTextStyle"
-        android:text="@string/flavors_title"/>
+                <RadioButton
+                    android:id="@+id/size_medium"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/size_medium_text" />
 
-    <RadioGroup
-        android:id="@+id/flavors_rad_group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <RadioButton
-            android:id="@+id/flavor_caramel_syrup"
-            style="@style/RadioButtonStyle"
-            android:text="@string/caramel_syrup_text" />
-        <RadioButton
-            android:id="@+id/flavor_chocolate_syrup"
-            style="@style/RadioButtonStyle"
-            android:text="@string/chocolate_syrup_text" />
-        <RadioButton
-            android:id="@+id/flavor_mocha_syrup"
-            style="@style/RadioButtonStyle"
-            android:text="@string/mocha_syrup_text"/>
-        <RadioButton
-            android:id="@+id/flavor_hazelnut_syrup"
-            style="@style/RadioButtonStyle"
-            android:text="@string/hazelnut_syrup_text"/>
-        <RadioButton
-            android:id="@+id/flavor_no_syrup"
-            style="@style/RadioButtonStyle"
-            android:text="@string/no_flavor_text"/>
+                <RadioButton
+                    android:id="@+id/size_large"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/size_large_text" />
 
-    </RadioGroup>
+            </RadioGroup>
 
-    <TextView
-        android:id="@+id/title_sweetener"
-        style="@style/HeaderTextStyle"
-        android:text="@string/sweetener_title"/>
+            <TextView
+                android:id="@+id/title_flavor"
+                style="@style/HeaderTextStyle"
+                android:text="@string/flavors_title" />
 
-    <RadioGroup
-        android:id="@+id/sweeteners_rad_group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/flavors_rad_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/sweetener_sugar"
-            style="@style/RadioButtonStyle"
-            android:text="@string/sweetener_sugar_text"/>
+                <RadioButton
+                    android:id="@+id/flavor_caramel_syrup"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/caramel_syrup_text" />
 
-        <RadioButton
-            android:id="@+id/sweetener_honey"
-            style="@style/RadioButtonStyle"
-            android:text="@string/sweetener_honey_text"/>
+                <RadioButton
+                    android:id="@+id/flavor_chocolate_syrup"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/chocolate_syrup_text" />
 
-        <RadioButton
-            android:id="@+id/sweetener_sugar_in_raw"
-            style="@style/RadioButtonStyle"
-            android:text="@string/sweetener_sugar_in_raw_text"/>
+                <RadioButton
+                    android:id="@+id/flavor_mocha_syrup"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/mocha_syrup_text" />
 
-        <RadioButton
-            android:id="@+id/sweetener_splenda"
-           style="@style/RadioButtonStyle"
-            android:text="@string/sweetener_splenda_text"/>
+                <RadioButton
+                    android:id="@+id/flavor_hazelnut_syrup"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/hazelnut_syrup_text" />
 
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/flavor_no_syrup"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/no_flavor_text" />
 
-    <TextView
-        android:id="@+id/title_creamer"
-        style="@style/HeaderTextStyle"
-        android:text="@string/creamer_title"/>
-    <RadioGroup
-        android:id="@+id/creamer_rad_group"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            </RadioGroup>
 
-        <RadioButton
-            android:id="@+id/creamer_milk"
-            style="@style/RadioButtonStyle"
-            android:text="@string/creamer_milk_text"/>
+            <TextView
+                android:id="@+id/title_sweetener"
+                style="@style/HeaderTextStyle"
+                android:text="@string/sweetener_title" />
 
-        <RadioButton
-            android:id="@+id/creamer_soy_milk"
-            style="@style/RadioButtonStyle"
-            android:text="@string/creamer_soy_text"/>
+            <RadioGroup
+                android:id="@+id/sweeteners_rad_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <RadioButton
-            android:id="@+id/creamer_coconut"
-            style="@style/RadioButtonStyle"
-            android:text="@string/creamer_coconut_text"/>
+                <RadioButton
+                    android:id="@+id/sweetener_sugar"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/sweetener_sugar_text" />
 
+                <RadioButton
+                    android:id="@+id/sweetener_honey"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/sweetener_honey_text" />
 
+                <RadioButton
+                    android:id="@+id/sweetener_sugar_in_raw"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/sweetener_sugar_in_raw_text" />
 
-    </RadioGroup>
+                <RadioButton
+                    android:id="@+id/sweetener_splenda"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/sweetener_splenda_text" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/title_creamer"
+                style="@style/HeaderTextStyle"
+                android:text="@string/creamer_title" />
+
+            <RadioGroup
+                android:id="@+id/creamer_rad_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/creamer_milk"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/creamer_milk_text" />
+
+                <RadioButton
+                    android:id="@+id/creamer_soy_milk"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/creamer_soy_text" />
+
+                <RadioButton
+                    android:id="@+id/creamer_coconut"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/creamer_coconut_text" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/order_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:text="Order" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>

@@ -15,6 +15,7 @@ public class BrewedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brewed_order_form);
 
+
         RadioGroup flavors = findViewById(R.id.flavors_rad_group);
         RadioGroup sweeteners = findViewById(R.id.sweeteners_rad_group);
         RadioGroup creamers = findViewById(R.id.creamer_rad_group);
@@ -53,8 +54,8 @@ public class BrewedActivity extends AppCompatActivity {
                 Coffee brewedCoffee = new Coffee(creamerSelected, sweetenerSelected,
                         flavorSelcted, sizeSelected);
 
-                /*create a list and display as receipt*/
-                /*when button clicked, it takes you to another activity to show receipt*/
+                /*create a list and display as receipt
+                when button clicked, it takes you to another activity to show receipt*/
 
             }
         });
